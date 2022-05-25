@@ -1,0 +1,5 @@
+{
+  "video": false,
+  "componentFolder": "cypress/component",
+  "experimentalStudio": true
+}
