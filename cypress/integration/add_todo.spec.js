@@ -39,4 +39,13 @@ context('Add Todo', () => {
     // there is no added todo item
     cy.get('[data-cy=todo-item]').should('not.exist')
   })
+
+  /* ==== Test Created with Cypress Studio ==== */
+  it('First test', function() {
+    /* ==== Generated with Cypress Studio ==== */
+    cy.visit('localhost:3000');
+    cy.get('[data-cy="new-todo-input-text"]').clear();
+    cy.get('[data-cy="new-todo-input-text"]').type('Tourwriter{enter}');
+    /* ==== End Cypress Studio ==== */
+  });
 })
